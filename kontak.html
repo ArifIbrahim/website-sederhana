@@ -7,7 +7,7 @@
 </head>
 
 <!-- Bagian Badan Website -->
-<body>
+<body class="body-contact">
     <!-- Bagian Header -->
     <header>
         <!-- Pembungkus Navigasi -->
@@ -32,17 +32,24 @@
     </header>
 
     <!-- Bagian Utama Website -->
-    <main class="main-home">
-        <!-- Bagian pembungkus hero / atau content pertama setelah navigasi -->
-        <section class="main-hero">
-            <!-- Pembungkus Foto -->
-            <div class="main-foto">
-                <img src="IMG/Foto Utama.jpeg" alt="">
-            </div>
+    <main class="main-contact">
+        <!-- Pembungkus hero / atau content pertama setelah navigasi -->
+        <section class="hero-contact">
+            <!-- Pembungkus Form -->
+            <form action="#" class="form-contact">
+                <h1>Kirim Pesan Ke Email Saya</h1>
+                
+                <label for="nama">Isi Nama :</label><br>
+                <input type="text" name="nama" id="nama" placeholder="isi nama disini"><br>
 
-            <h1>Halo, Saya Muhammad Arif Ibrahim</h1>    
-            <p>Seorang Web Developer pemula yang sedang belajar membangun hal-hal keren.</p>
-            <a href="proyek.html" class="btn">Lihat Karya Saya</a>
+                <label for="email">Email :</label><br>
+                <input type="email" name="email" id="email" placeholder="isi email disini"><br>
+
+                <label for="pesan">Pesan :</label><br>
+                <textarea name="pesan" id="pesan" placeholder="Ketik pesan disini"></textarea><br>
+
+                <button type="button">Kirim</button>
+            </form>
         </section>
     </main>
 
@@ -79,5 +86,7 @@
             &copy; 2026 Muhammad Arif Ibrahim. All Rights Reserved
         </div>
     </footer>
+
+
 </body>
 </html>

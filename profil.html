@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  <!-- Dokumen tipe html -->
+
+<!-- Bagian Kepala Website -->
 <head>
-    <title>Profile</title>
-    <link rel="stylesheet" href="test.css">
+    <title>Website Sederhana</title> <!-- Judul Website -->
+    <link rel="stylesheet" href="style.css"> <!-- Penghubung file css -->
 </head>
+
+<!-- Bagian Badan Website -->
 <body>
     <!-- Bagian Header -->
     <header>
@@ -15,68 +18,92 @@
                 <h1>Website Sederhana</h1>
             </div>
 
-            <!-- Pembungkus Menu -->
+            <!-- Bagian Navigasi -->
             <nav>
+                <!-- Tag untuk membuat list -->
                 <ul>
-                    <li><a href="profil.php">Home</a></li>
-                    <li><a href="kontak.php">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profil.html">About</a></li>
+                    <li><a href="proyek.html">Projects</a></li>
+                    <li><a href="kontak.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Bagian main Content -->
-    <main>
-        <!-- Bagian pembungkus hero / atau content pertama setelah navigasi -->
-        <section class="hero">
-            <div class="foto">
-                <img src="IMG/Foto Utama.jpeg" alt="">
-            </div>
+    <!-- Bagian Utama Website -->
+    <main class="main-profile">
+        <!-- Bagian Profile -->
+        <div class="container-profile">
+            <!-- Bagian hero / atau content pertama setelah navigasi -->
+            <section class="hero-profile">
+                <!-- Bagian Foto Profile -->
+                <div class="foto-profile">
+                    <img src="IMG/Foto Profil.jpeg" alt="">
+                </div>
 
-            <h1>Halo, Saya Muhammad Arif Ibrahim</h1>    
-            <p>Seorang Web Developer pemula yang sedang belajar membangun hal-hal keren.</p>
-            <a href="#projects" class="btn">Lihat Karya Saya</a>
-        </section>
+                <!-- Bagian Data Diri -->
+                <div class="data-diri">
+                    <h1>Muhammad Arif Ibrahim</h1>
+                    <p>
+                        <span>NIM</span>
+                        <span>:</span>
+                        <span>2403015040</span>
+                    </p>
+                    <p>
+                        <span>Jurusan</span>
+                        <span>:</span>
+                        <span>Teknik Informatika</span>
+                    </p>
+                    <p>
+                        <span>Cita - Cita</span>
+                        <span>:</span>
+                        <span>Menjadi Orang Kaya</span>
+                    </p>
+                    <p>
+                        <span>Hobi</span>
+                        <span>:</span>
+                        <span>Bermain Game, Membaca Komik, Menonton Anime</span>
+                    </p>
+                    <p>
+                        <span>Deskripsi Diri</span>
+                        <span>:</span>
+                        <span>Saya adalah seorang mahasiswa di universitas muhammadiyah prof. dr. Hamka</span>
+                    </p>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <main>
-        <h1>Ini adalah halaman Profil</h1>
-        <ul>
-            <li>Nama Lengkap</li>
-            <li>NIM</li>
-            <li>Jurusan</li>
-            <li>Deskripsi diri (paragraf)</li>
-            <li>Hobi</li>
-            <li>Cita-cita</li>
-        </ul>
-    </main>
-
-
-    <!-- Bagian footer -->
+    <!-- Bagian kaki website -->
     <footer>
+        <!-- Container Footer -->
         <div class="footer-container">
+            <!-- Konten 1 Footer -->
             <div class="footer-box">
                 <h3>Website Sederhana</h3>
                 <p>Website yang dibuat untuk kebutuhan tugas perkuliahan.</p>
             </div>
 
+            <!-- Konten 2 Footer -->
             <div class="footer-box">
                 <h3>Navigasi</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profil.html">About</a></li>
+                    <li><a href="proyek.html">Project</a></li>
+                    <li><a href="kontak.html">Contact</a></li>
                 </ul>
             </div>
 
+            <!-- Konten 3 Footer -->
             <div class="footer-box">
-                <h3>Hubungi kami</h3>
+                <h3>Hubungi Saya</h3>
                 <p>Email: arifibrahim0603@gmail.com</p>
             </div>
         </div>
 
+        <!-- Copyright Footer -->
         <div class="footer-copyright">
             &copy; 2026 Muhammad Arif Ibrahim. All Rights Reserved
         </div>
